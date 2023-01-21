@@ -13,7 +13,7 @@ namespace Orleans.Providers.Streams.AzureQueue
     /// </summary>
     [Serializable]
     [GenerateSerializer]
-    internal class AzureQueueBatchContainerV2 : IBatchContainer
+    public class AzureQueueBatchContainerV2 : IBatchContainer
     {
         [JsonProperty]
         [Id(0)]
